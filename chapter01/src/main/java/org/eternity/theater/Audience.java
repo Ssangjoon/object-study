@@ -8,14 +8,7 @@ public class Audience {
     }
 
     public Long buy(Ticket ticket) {
-        if (bag.hasInvitation()) {
-            bag.setTicket(ticket);
-            return 0L; // 무료 티켓
-        } else {
-            bag.minusAmount(ticket.getFee());
-            bag.setTicket(ticket);
-            return ticket.getFee(); // 유료 티켓
-        }
+        return bag.hold(ticket);
     }
 
 }
