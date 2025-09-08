@@ -1,5 +1,5 @@
 package com.ssang;
 
 public class LambdaPractice {
-    String c1 = "commit1";
+    String c1 = "commit2";
 }
