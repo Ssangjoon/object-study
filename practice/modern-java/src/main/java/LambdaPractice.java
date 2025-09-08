@@ -3,4 +3,5 @@ public class LambdaPractice {
     String commit2 = "Added feature A";
     String commit3 = "Fixed bug in feature A";
     String commit4 = "Improved performance";
+    String commit5 = "Refactored codebase";
 }
